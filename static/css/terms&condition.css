@@ -1,0 +1,18 @@
+
+#digital-marketing-image {
+    display: none;
+}
+
+.terms {
+    background-color: white;
+    width:80%;
+    margin:auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow:5px 5px 10px black;
+    padding:50px;
+    height:max-content;
+}
+.terms h1 {
+    color:rgb(255, 120, 30);
+}

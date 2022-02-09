@@ -1,0 +1,160 @@
+extends base.pug
+
+block script 
+    title 
+    <meta name="description" content="">
+    script(src="/static/jquery/jquery-3.6.0.min.js") 
+    script(src="/static/jquery/main.js") 
+    script(src="/static/js/main.js") 
+    <script src="https://kit.fontawesome.com/3c86032974.js" crossorigin="anonymous"></script>
+
+block style 
+    style 
+        include ../static/css/headerfooter.css
+        include ../static/css/content-layout.css
+        include ../static/css/seo-service.css
+        include ../static/css/portfolio.css
+        include ../static/css/portfoliophone.css
+        include ../static/css/homephone.css
+
+block content
+    h1#main-heading 
+        | Poject's We're Proud to Show off
+    Section#main-section1 
+        div#btn-div
+            Button
+                b  ALL 
+            Button
+                b SEO
+            Button
+                b SMO
+            Button
+                b PPC
+            Button
+                b ORM
+    section#main-section2.project-section
+        div#project1.projects
+            div#img1.img 
+                |#[a(href="https://fb.com/ekwikdigital") <img src="../static/image/1.png" alt="" id="image" class="image" srcset=""> </img>]
+            h1#project-name 
+                | Project name
+            p This is infomation about project
+            h3#project-develop 
+                | coding
+            button.project-btn 
+                |#[a(href="https://fb.com/ekwikdigital") Explore]
+        div#project2.projects
+            div#img1.img 
+                |#[a(href="https://fb.com/ekwikdigital") <img src="../static/image/1.png" alt="" id="image" class="image" srcset="">]
+            h1#project-name 
+                | Project name
+            p This is infomation about project
+            h3#project-develop 
+                | coding
+            button.project-btn 
+                |#[a(href="https://fb.com/ekwikdigital") Explore]
+        div#project3.projects
+            div#img1.img 
+                |#[a(href="https://fb.com/ekwikdigital") <img src="../static/image/1.png" alt="" id="image" class="image" srcset="">]
+            h1#project-name 
+                | Project name
+            p This is infomation about project
+            h3#project-develop 
+                | coding
+            button.project-btn 
+                |#[a(href="https://fb.com/ekwikdigital") Explore]
+    section#main-section3.project-section
+        div#project4.projects
+            div#img1.img 
+                |#[a(href="https://fb.com/ekwikdigital") <img src="../static/image/1.png" alt="" id="image" class="image" srcset="">]
+            h1#project-name 
+                | Project name
+            p This is infomation about project
+            h3#project-develop 
+                | coding
+            button.project-btn 
+                |#[a(href="https://fb.com/ekwikdigital") Explore]
+        div#project5.projects
+            div#img1.img 
+                |#[a(href="https://fb.com/ekwikdigital") <img src="../static/image/1.png" alt="" id="image" class="image" srcset="">]
+            h1#project-name 
+                | Project name
+            p This is infomation about project
+            h3#project-develop 
+                | coding
+            button.project-btn 
+                |#[a(href="https://fb.com/ekwikdigital") Explore]
+        div#project6.projects
+            div#img1.img 
+                |#[a(href="https://fb.com/ekwikdigital") <img src="../static/image/1.png" alt="" id="image" class="image" srcset="">]
+            h1#project-name 
+                | Project name
+            p This is infomation about project
+            h3#project-develop 
+                | coding
+            button.project-btn 
+                |#[a(href="https://fb.com/ekwikdigital") Explore]
+    section#main-section4.project-section
+        div#project7.projects
+            div#img1.img 
+                |#[a(href="https://fb.com/ekwikdigital") <img src="../static/image/1.png" alt="" id="image" class="image" srcset="">]
+            h1#project-name 
+                | Project name
+            p This is infomation about project
+            h3#project-develop 
+                | coding
+            button.project-btn 
+                |#[a(href="https://fb.com/ekwikdigital") Explore]
+        div#project8.projects
+            div#img1.img 
+                |#[a(href="https://fb.com/ekwikdigital") <img src="../static/image/1.png" alt="" id="image" class="image" srcset="">]
+            h1#project-name 
+                | Project name
+            p This is infomation about project
+            h3#project-develop 
+                | coding
+            button.project-btn 
+                |#[a(href="https://fb.com/ekwikdigital") Explore]
+        div#project9.projects
+            div#img1.img 
+                |#[a(href="https://fb.com/ekwikdigital") <img src="../static/image/1.png" alt="" id="image" class="image" srcset="">]
+            h1#project-name 
+                | Project name
+            p This is infomation about project
+            h3#project-develop 
+                | coding
+            button.project-btn 
+                |#[a(href="https://fb.com/ekwikdigital") Explore]
+    //- Section#portfolio-heading
+    //-     h1 See our Real Results
+    //-     p We Don't Believe in talks !
+    //-     div#portfolio-image
+    //- section#portfolio
+    //-     div#port1.port
+    //-         #sub-port1.sub-port
+    //-             h1  PORT
+    //-         #explore.explore
+    //-             h3 #[a(href="/portfolio") EXPLORE]
+    //-         #sub-port2.sub-port
+    //-             H1 FOLIO
+    //-     div#port2.port
+    //-         #sub-port3.sub-port
+    //-             h1 CASES
+    //-         #explore1.explore
+    //-             h3 #[a(href="/case-study") EXPLORE]
+    //-         #sub-port4.sub-port
+    //-             h1 TUDIES
+    //-     div#port3.port
+    //-         #sub-port5.sub-port
+    //-             h1 SEO R
+    //-         #explore2.explore
+    //-             h3 #[a(href="/seo-results") EXPLORE]
+    //-         #sub-port6.sub-port
+    //-             h1 ESULT
+    //-     div#port4.port
+    //-         #sub-port7.sub-port
+    //-             h1 TESTIM
+    //-         #explore3.explore
+    //-             h3 #[a(href="/testimonials") EXPLORE]
+    //-         #sub-port8.sub-port
+    //-             h1 ONIALS

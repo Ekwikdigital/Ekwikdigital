@@ -1,0 +1,116 @@
+extends base.pug
+
+block script 
+    title 
+    <meta name="description" content="">
+    script(src="/static/jquery/jquery-3.6.0.min.js") 
+    script(src="/static/jquery/main.js") 
+    script(src="/static/js/main.js") 
+    <script src="https://kit.fontawesome.com/3c86032974.js" crossorigin="anonymous"></script>
+
+block style 
+    style 
+        include ../static/css/headerfooter.css
+        include ../static/css/content-layout.css
+        include ../static/css/homephone.css
+        include ../static/css/portfolio.css
+        include ../static/css/portfoliophone.css
+        include ../static/css/seo-service.css
+
+block content
+    h1#main-heading 
+        | Poject's We're Proud to Show off
+    //- Section#main-section1 
+    //-     div#btn-div
+    //-         Button
+    //-             b  ALL 
+    //-         Button
+    //-             b WEB DEVELOPMENT
+    //-         Button
+    //-             b WORDPRESS
+    //-         Button
+    //-             b WEB DESIGN
+    section#main-section2.project-section
+        div#project1.projects
+            div#img1.img 
+                |#[a(href="https://www.shahtimesnews.com/" target="_blank") <img src="../static/image/shahtimes.png" alt="" id="image" class="image" srcset=""> </img>]
+            h1#project-name 
+                | Shah times
+            h6#project-develop 
+                | PHP with Laravel Framework
+            p A website for displaying Daily News and E-papers.
+            button.project-btn 
+                |#[a(href="https://www.shahtimesnews.com/" target="_blank") Explore]
+        div#project2.projects
+            div#img1.img 
+                |#[a(href="http://dualife.in/" target="_blank") <img src="../static/image/print.png" alt="" id="image" class="image" srcset="">]
+            h1#project-name 
+                | Jaipur printers
+            h6#project-develop 
+                | Wrodpress with Elementor
+            p A Website Form Display the legacy of Jaipur Printers.
+            button.project-btn 
+                |#[a(href="http://dualife.in/" target="_blank") Explore]
+        div#project3.projects
+            div#img1.img 
+                |#[a(href="http://www.techtradedu.com/evergreennuts/" target="_blank") <img src="../static/image/nuts.png" alt="" id="image" class="image" srcset="">]
+            h1#project-name 
+                | Kaju wale bhaiya
+            h6#project-develop 
+                | PHP with Codeigntier
+            p E-Commerce Website for Dry Fruits.
+            button.project-btn 
+                |#[a(href="http://www.techtradedu.com/evergreennuts/" target="_blank") Explore]
+    section#main-section3.project-section
+        div#project4.projects
+            div#img1.img 
+                |#[a(href="https://e-bookarchive.com/" target="_blank") <img src="../static/image/book.png" alt="" id="image" class="image" srcset="">]
+            h1#project-name 
+                | Ebook archive
+            h6#project-develop 
+                | Wrodpress with Elementor
+            p A Website for Buying and Reading Books Online.
+            button.project-btn 
+                |#[a(href="https://e-bookarchive.com/" target="_blank") Explore]
+        div#project5.projects
+            div#img1.img 
+                |#[a(href="https://wildlifesafari.in/" target="_blank") <img src="../static/image/wild.png" alt="" id="image" class="image" srcset="">]
+            h1#project-name 
+                | Wildlife safari
+            h6#project-develop 
+                | Wrodpress with Elementor
+            p A Website for Book Tickets for Wildlife safari.
+            button.project-btn 
+                |#[a(href="https://wildlifesafari.in/" target="_blank") Explore]
+        div#project6.projects
+            div#img1.img 
+                |#[a(href="https://ekwikclasses.com/" target="_blank") <img src="../static/image/ekwikclasses.png" alt="" id="image" class="image" srcset="">]
+            h1#project-name 
+                | Ekwik classes
+            h6#project-develop 
+                | Wrodpress with Elementor
+            p #1 Digital Marketing Training Institute in Laxmi Nagar, Delhi.
+            button.project-btn 
+                |#[a(href="https://ekwikclasses.com/" target="_blank") Explore]
+    section#main-section4.project-section
+        div#project7.projects
+            div#img1.img 
+                |#[a(href="http://onexdigital.online/" target="_blank") <img src="../static/image/onex.png" alt="" id="image" class="image" srcset="">]
+            h1#project-name 
+                | Onexdigital
+            h6#project-develop 
+                | Wrodpress with Elementor
+            p leading database service providing company.
+            button.project-btn 
+                |#[a(href="http://onexdigital.online/" target="_blank") Explore]
+        div#project8.projects
+            div#img1.img 
+                |#[a(href="https://printersolutionsnumber.com/" target="_blank") <img src="../static/image/printer.png" alt="" id="image" class="image" srcset="">]
+            h1#project-name 
+                | Printer solutions number
+            h6#project-develop 
+                | Wrodpress with Elementor
+            p Buy a printer online rather than going to the stores.
+            button.project-btn 
+                |#[a(href="https://printersolutionsnumber.com/" target="_blank") Explore]
+    section#margin
