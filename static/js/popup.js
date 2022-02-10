@@ -22,8 +22,9 @@ window.onload = function(){
 // slider
 
 var counter = 1;
+var id = document.getElementById('radio');
 setInterval(function(){
-    document.getElementById('radio' + counter).checked = true;
+    (id+counter).checked = true;
     counter++;
     if(counter > 4){
         counter = 1;

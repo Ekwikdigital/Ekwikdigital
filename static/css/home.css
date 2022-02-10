@@ -33,15 +33,18 @@ body {
     z-index: 99999;
     display: none;
 }
+
+
 .popupblur {
-    background-color: #0f0f0f77;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
     height: 1000%;
     width: 1000%;
-    position: absolute;
     top: -100%;
     left: -150%;
     position: fixed;
-    display: none;
+
+    /* display: none; */
 }
 .popup-content {
     background: no-repeat center center/cover url(../static/image/PPC.jpg);
