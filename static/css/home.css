@@ -457,7 +457,7 @@ display: none;
     margin: 10px;
     padding: 10px;
     list-style: none;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 .service-menu-sub-menu ul li a {
     text-decoration: none;
@@ -789,7 +789,7 @@ display: none;
 .sub-rating-class:hover .fas {
     color: rgb(252, 162, 44);
 }
-.sub-rating-class h1 {
+.sub-rating-class h2 {
     margin: 10px;
     color: rgb(255,79,92);
 }
@@ -1286,7 +1286,7 @@ display: none;
     background-color: rgba(0, 0, 0, 0.76);
     color: white;
     height: 350px;
-    width: 92%;
+    width: 93.35%;
 }
 .footer-menu-class {
     height: 300px;

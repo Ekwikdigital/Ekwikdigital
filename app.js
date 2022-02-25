@@ -223,6 +223,9 @@ app.get('/testimonials', (req, res)=>{
 app.get('/terms&condition', (req, res)=>{
     res.status(200).render('terms&condition.pug');
 });
+app.get('/sitemap.xml', (req, res)=>{
+    res.status(200).render('sitemap.xml');
+});
 
 app.post('/contact', (req, res)=>{
     var myData = new Contact(req.body);

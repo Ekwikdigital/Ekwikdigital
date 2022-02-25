@@ -656,8 +656,13 @@ display: none;
 }
 .whoweare p {
     font-size: 18px;
+    text-align: justify;
 }
-.whoweare h2 {
+.whoweare .par
+{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
  color: #FF725E; 
  padding-bottom: 5px;  
  padding-top: 5px;  
@@ -708,6 +713,8 @@ display: none;
 }
 
 #meet-team {
+    font-size: 25px;
+    font-weight: bold;
     text-align: center;
     margin: 20px;
 }

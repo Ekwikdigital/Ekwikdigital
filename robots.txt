@@ -1,0 +1,4 @@
+User-agent: * 
+allow: /
+Disallow: https://ekwikdigital.com/2021/05/02/
+Disallow: https://ekwikdigital.com/case-study
